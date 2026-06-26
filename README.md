@@ -30,22 +30,29 @@ x^2 - x - 1 = 0
 - Steffensen 迭代法求解非线性方程
 ## 项目结构
 
+## 项目结构
+
 ```text
 numerical-methods-python/
 ├── README.md
 ├── .gitignore
-├── src/
-│   └── bisection.py
-└── examples/
-    └── run_examples.py
+├── examples/
+│   └── run_examples.py
+└── src/
+    ├── bisection.py
+    ├── newton.py
+    ├── secant.py
+    └── steffensen.py
 ```
-
 ## 运行方式
 
 在项目根目录下运行：
 
 ```bash
 python src/bisection.py
+python src/newton.py
+python src/secant.py
+python src/steffensen.py
 ```
 
 或者运行示例文件：
