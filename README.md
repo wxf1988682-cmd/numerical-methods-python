@@ -115,6 +115,26 @@ Ran 4 tests in 0.001s
 
 OK
 ```
+## 自动测试
+
+
+本项目已配置 GitHub Actions 自动测试流程。
+
+每次向 `main` 分支提交代码时，GitHub Actions 会自动运行以下命令：
+
+```bash
+python -m unittest discover tests
+```
+
+如果测试全部通过，GitHub Actions 页面会显示绿色对勾。
+
+当前测试内容包括：
+
+- 二分法测试
+- 牛顿迭代法测试
+- 割线法测试
+- Steffensen 迭代法测试
+
 
 ## 示例结果
 
