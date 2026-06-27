@@ -1,5 +1,7 @@
 # numerical-methods-python
 
+![Python Tests](https://github.com/wxf1988682-cmd/numerical-methods-python/actions/workflows/python-tests.yml/badge.svg)
+
 ## 项目简介
 
 本项目是一个用于学习数值分析方法与 Python 编程的练习项目，主要实现常见的非线性方程求根算法。
